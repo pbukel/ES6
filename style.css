@@ -1,0 +1,70 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+body {
+    background: linear-gradient(to right, #136a8a, #267871);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#startQuiz{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5em;
+    transition: 0.3s;
+
+}
+#startQuiz:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    }
+
+#quiz{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    color: white;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+
+}
+.answbtn{
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5em;
+    transition: 0.3s;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.answbtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    }
+#progressBar{
+    border: 1px solid white;
+}
+#progressBarFull{
+    width: 0%;
+    background: white;
+    height: 10px;
+}
